@@ -35,6 +35,20 @@ The business details must be provided in a JSON file structured as follows:
 
 ---
 
+## City Selection Guidelines
+
+When setting up a new business profile, you must research and identify target service cities to populate `recentWorkCities` and `reviewCities`. Use the following criteria:
+
+1. **City 1 (Primary City)**: This is the city specified in `location.cityState`.
+2. **City 2 (Second Target City)**: Research and identify a prime neighboring city for roofing sales (e.g., a larger local economic center or a high-demand suburb).
+3. **City 3 (Third Target City)**: Research and identify a third prime neighboring city (e.g., an affluent residential community or active development area).
+
+Ensure these mapped values are populated into:
+- `recentWorkCities` (contains City 1, City 2, and City 3)
+- `reviewCities` (contains City 1 and City 2)
+
+---
+
 ## Replacement Checklist & Step-by-Step Instructions
 
 Perform the following find-and-replace tasks in `index.html`.
