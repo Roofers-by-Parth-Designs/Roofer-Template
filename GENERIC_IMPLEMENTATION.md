@@ -2,7 +2,7 @@
 
 This implementation plan directs an AI development agent on how to replace generic placeholders in `index.html` with business-specific details.
 
-To customize `index.html` for a new business, you must load a structured configuration JSON file containing the business information (following the schema of `lapp_brothers_info.json`) and apply the replacements specified below.
+To customize `index.html` for a new business, you must load a structured configuration JSON file containing the business information (following the schema of `business_info.json`) and apply the replacements specified below.
 
 ---
 
